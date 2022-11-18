@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+    
+
+
+/*-------- HEADER-------*/
+    header{
+    position: sticky;
+    top: 0;
+    font-family: 'roboto',sans sans-serif;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: inline-block;
+    
+    
+}
+
+
+
+.titulo h1{
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 0;
+    color: rgb(50, 33, 77);
+}
+
+.navegador li{
+    display: inline-block;
+    margin: 5px 15px 5px 15px;
+    font-size: 14px;
+    color: rgb(50, 33, 77);
+}
+
+.navegador ul{
+    
+    text-align: right;
+    width: 100%;
+    
+}
+
+nav a:hover{
+    color: blue;
+}
+
+.temporadaVerano   {
+    width: 100%;
+    height: 100%;
+    color: rgb(245, 245, 245);  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+.temporadaVerano a{
+    display: flex;
+    margin: 12px;
+    border:  1px solid black;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(172, 73, 158);
+    color: rgb(255, 255, 255);
+    
+}
+
+.temporadaTitulo {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: rgb(50, 33, 77);
+    padding: 10px;
+}
+.temporadaVerano img{
+    width: 298px;
+    height: 300px;
+}
+.temporadaVerano div{
+    
+    width: 300px;
+    box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);  
+    
+}
+
+.temporadaVeranoComprar{
+    border:1px solid black ;
+
+}
+.temporadaVerano h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.liquidacion{
+    width: 100%;
+    height: 100%;
+    color: rgb(245, 245, 245);  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.liquidacionTitulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(3, 3, 3, 0.541);
+    color: rgb(50, 33, 77);
+    padding: 10px;
+}
+.liquidacion h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.liquidacion img{
+    width: 298px;
+    height: 300px;
+    display: flex;
+}
+.liquidacion a{
+    display: flex;
+    margin: 12px;
+    border:  1px solid black;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(134, 98, 98, 0.014);
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.liquidacion div{
+    width: 300px;
+    box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);  
+    display: inline-block;
+    
+}
+
+.liquidacion .liquidacionComprar a{
+    background-color: rgb(172, 73, 158);
+    color: rgb(255, 255, 255);
+}
+.liquidacion .liquidacionComprar{
+    border: 1px solid black;
+}
+.tePuedeGustar {
+    width: 100%;
+    height: 100%;
+}
+.tePuedeGustar div{
+    display: inline-block;
+    margin: 12px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+}
+.tePuedeGustar div img{
+    width: 300px;
+    height: 300px;
+}
+
+.tePuedeGustar div a{
+    background-color: rgb(172, 73, 158);
+    color: rgb(255, 255, 255);
+    
+}
+
+.tePuedeGustar a{
+    display: flex;
+    margin: 12px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+.tePuedeGustarTitulo {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: rgb(50, 33, 77);
+    padding: 10px;
+    
+}
+
+.tePuedeGustar h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.sobreNosotros{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 500px 500px ;
+}
+
+.ubicacion iframe{
+    width: 100%;
+    padding: 20px;
+}
+
+.nosotros p{
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+.nosotros h3{
+    text-align: center;
+    color: rgb(50, 33, 77);
+    font-size: 22px;
+    margin: 20px;
+}
+
+.nosotrosTienda{
+    padding: 20px;
+}
+
+.ubicacion{
+    
+    grid-column: 1/3;
+}
+
+.ubicacion h3{
+    text-align: left;
+    font-size: 22px;
+    margin: 20px;
+    color: rgb(50, 33, 77);
+}
+
+/*------------------ FOOTER-----------------*/
+
+.container{
+    max-width: 100%;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer{
+    background-color: #23262b;
+    padding:30px;
+    
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+
+.pagoimg img{
+    width: 170px;
+    padding: 10px;
+}
+.footer-col .redSocial img{
+    width: 50px;
+    height: 50px;
+    
+}
+.footer-col .redSocial a{
+    
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+}
+
+.footer-col h5{
+    font-size: 14px;
+    color: white;
+}
+
+.footer-col a{
+    color: rgb(88, 88, 146);
+}

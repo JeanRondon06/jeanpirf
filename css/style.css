@@ -10,32 +10,88 @@
 /*-------- HEADER-------*/
 
 .cabezera{
-    text-decoration: none;
     display: flex;
     justify-content: space-between;
+    margin:0px;
+    height: 70px;
+    align-items: center;
+    
 }
-.titulo h1{
-    color: white;
-    background-image: url(../img/dony.png);
-    background-position: center;
-    width: 100%;
-    padding: 2vh;
-    margin-bottom: 0px;
-}
-.titulo a{
+.cabezera a{
     text-decoration: none;
-}
-.navvegador nv{
-    text-decoration: none;
-}
-.navegador-listas a{
-    text-decoration: none;
-}
-.navegador .navegador-listas{
-    flex-flow:  column;
 }
 
-.temporadaVerano   {
+.cabezera h1{
+    color: rgb(255, 255, 255);
+    background-image: url(../img/dony.png);
+    background-position: center;
+    background-size: 300px;
+    text-align: center;
+    font-size: 28px;
+    width: 160px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    width: 104px;
+    height: auto;
+}
+
+.navegador ul{
+    display: flex;
+    flex-direction: row;
+    
+ }
+
+ .navegador a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+
+ }
+
+ .navegador a b{
+    color: rgb(66, 15, 62);
+    align-items: center;
+ }
+ /*-------- HEADER MQ-------*/
+@media screen and (max-width:375px){
+     .cabezera{
+        flex-direction: column;
+        margin-bottom: 70px;
+        background-image: url(../img/dony.png);
+        padding: 0;
+    }
+    .cabezera .Titulo{
+        
+        background-image: url(../img/dony.png);
+    }
+    .navegador{
+        background-image: url(../img/dony.png);
+        padding: 0;
+        margin-top;: 100px;
+    }
+    .navegador a b{
+        color: rgb(0, 0, 0);
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+.temporadaVerano {
     width: 100%;
     height: 100%;
     display: flex;

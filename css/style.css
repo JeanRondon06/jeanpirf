@@ -1,61 +1,46 @@
 *{
     margin: 0px;
     padding:0;
-    text-decoration: none;
     box-sizing: border-box;
+    
 }
     
 
 
 /*-------- HEADER-------*/
-    header{
-    position: sticky;
-    top: 0;
-    font-family: 'roboto',sans sans-serif;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    display: inline-block;
-    
-    
+
+.cabezera{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
 }
-
-
-
 .titulo h1{
-    display: inline-block;
-    text-align: left;
-    padding: 10px;
-    padding-bottom: 0;
-    color: rgb(50, 33, 77);
-}
-
-.navegador li{
-    display: inline-block;
-    margin: 5px 15px 5px 15px;
-    font-size: 14px;
-    color: rgb(50, 33, 77);
-}
-
-.navegador ul{
-    
-    text-align: right;
+    color: white;
+    background-image: url(../img/dony.png);
+    background-position: center;
     width: 100%;
-    
+    padding: 2vh;
+    margin-bottom: 0px;
 }
-
-nav a:hover{
-    color: blue;
+.titulo a{
+    text-decoration: none;
+}
+.navvegador nv{
+    text-decoration: none;
+}
+.navegador-listas a{
+    text-decoration: none;
+}
+.navegador .navegador-listas{
+    flex-flow:  column;
 }
 
 .temporadaVerano   {
     width: 100%;
     height: 100%;
-    color: rgb(245, 245, 245);  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 400px;
-    padding: 10px;
-    margin: 10px;
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-around;
 }
 .temporadaVerano a{
     display: flex;
@@ -72,17 +57,24 @@ nav a:hover{
 }
 
 .temporadaTitulo {
+    width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.541);
     color: rgb(50, 33, 77);
     padding: 10px;
+}
+.temporadaTitulo h2{
+    width: 100%;
+}
+.temporadaVerano h3{
+    font-size: 16px;
 }
 .temporadaVerano img{
     width: 298px;
     height: 300px;
 }
 .temporadaVerano div{
-    
+    margin: 12px;
     width: 300px;
     box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
@@ -92,6 +84,7 @@ nav a:hover{
 
 .temporadaVeranoComprar{
     border:1px solid black ;
+    display: inline-block;
 
 }
 .temporadaVerano h3{
@@ -99,15 +92,13 @@ nav a:hover{
     color: rgb(0, 0, 0);
 }
 
+
 .liquidacion{
     width: 100%;
     height: 100%;
-    color: rgb(245, 245, 245);  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 400px;
-    padding: 10px;
-    margin: 10px;
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-around;
 }
 
 .liquidacionTitulo {
@@ -121,6 +112,7 @@ nav a:hover{
 .liquidacion h3{
     text-align: center;
     color: rgb(0, 0, 0);
+    font-size: 16px;
 }
 .liquidacion img{
     width: 298px;
@@ -140,11 +132,12 @@ nav a:hover{
     
 }
 .liquidacion div{
-    width: 300px;
+    display: inline-block;
+    margin: 12px;
+    border: 1px solid black;
     box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);  
-    display: inline-block;
+    -moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
     
 }
 
@@ -158,6 +151,9 @@ nav a:hover{
 .tePuedeGustar {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-around;
 }
 .tePuedeGustar div{
     display: inline-block;
@@ -168,7 +164,7 @@ nav a:hover{
     -moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
 }
 .tePuedeGustar div img{
-    width: 300px;
+    width: 298px;
     height: 300px;
 }
 
@@ -186,6 +182,9 @@ nav a:hover{
     text-align: center;
     justify-content: center;
     text-align: center;
+    text-decoration: none
+    
+    ;
 }
 .tePuedeGustarTitulo {
     text-align: center;
@@ -198,7 +197,9 @@ nav a:hover{
 .tePuedeGustar h3{
     color: rgb(0, 0, 0);
     text-align: center;
+    font-size: 16px;
 }
+
 
 .sobreNosotros{
     width: 100%;

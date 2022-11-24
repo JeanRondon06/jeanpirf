@@ -162,7 +162,13 @@
         font-size: 18px;
         font-style: inherit;
     }
-
+    .ropa .ropaTitulo {
+        margin-top: 120px;
+    }
+    .ropaTitulo{
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 }
  
 @media screen and (max-width:480px)  {
@@ -288,14 +294,6 @@
         font-size: 15px;
     }
 }
-
-
-
-
-
-
-
-
 
 
 .temporadaVerano {
@@ -536,7 +534,7 @@ form {
 }
 .form-text{
     margin-top: 5px;
-    color: rgb(26, 4, 4);
+    color: rgb(5, 1, 1);
 
 }
 #exampleInputPassword1{
@@ -604,7 +602,7 @@ form {
     display: inline-block;
 
 }
-.temporadaVerano h3{
+.ropa h3{
     text-align: center;
     color: rgb(0, 0, 0);
 }
